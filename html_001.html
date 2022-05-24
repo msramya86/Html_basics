@@ -1,3 +1,37 @@
+//2.function to accept two numbers and return the largest number of two//
+
+
+<!DOCTYPE html>
 <html>
-    <p>This is my first html page</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My javascript</title>
+  <p id="demo"></p>
+  <script >
+    const a = parseInt(prompt('Enter the first number: '));
+ 
+ const b = parseInt(prompt('Enter the second number: '));
+ 
+ 
+ 
+ function myfunction1(num1,num2){
+     if (num1>num2)
+     {
+        return num1
+     }
+     else 
+        return num2;
+     }
+ 
+ let x= myfunction1(a,b);
+ 
+ 
+    document.getElementById("demo").innerHTML = "The largest of two numbers is " + x;
+
+  </script>
+</head>
+<body>
+
+</body>
 </html>
